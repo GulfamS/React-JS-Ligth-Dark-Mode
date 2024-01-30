@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.light-dark-mode-card {
+  background-color: #000000;
+  border: none;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: Roboto;
+  font-size: 28px;
+}
+
+.button {
+  background-color: #ffffff;
+  font-family: Roboto;
+  border: none;
+  border-radius: 6px;
+  padding: 8px;
+  border: 1px solid #000000;
+}
+
+.dark-mode {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.light-mode {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
